@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HMTI - Acara</title>
+    <link rel="icon" href="assets/hmti_logo.png" type="image/png" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="sytle/sytle.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="position-relative">
+    <header class="sticky-top z-3">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 border-bottom">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html"
+            ><img class="csi-1 me-2" src="assets/hmti_logo.png" alt="logo_hmti" />HMTI</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="mt-2 mt-md-0 navbar-nav gap-2">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="acara.html">Acara</a>
+              <a href="struktur.html" class="nav-link pe-2"> Struktur </a>
+              <a class="nav-link" href="album.html">Album</a>
+              <a class="nav-link" href="tentang.html">Tentang</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="mb-6" style="background-image: url(assets/foto_3.webp); background-position: center">
+        <div class="hero-cover">
+          <div
+            class="container"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="50"
+            data-aos-duration="1200"
+            data-aos="fade"
+          >
+            <div class="text-center text-light d-flex flex-column gap-3">
+              <h1 class="mb-3 fw-bold display-5">Acara HMTI</h1>
+              <p class="fs-7 mb-3">
+                Kumpulan kegiatan kami yang terbagi ke dalam agenda utama, yang akan datang, dan yang sudah
+                selesai.
+              </p>
+              <!-- arrow -->
+              <a id="cta"
+                ><span
+                  class="iconify-inline csi-2 text-light"
+                  data-icon="mingcute:arrow-down-circle-fill"
+                ></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- headline -->
+      <section class="pt-6">
+        <div class="container text-center">
+          <div class="mb-5">
+            <p class="fw-semibold text-primary mb-4">Acara HMTI</p>
+            <h2 style="max-width: 600px" class="mb-4 d-inline-block mb-0 fw-bold display-6 text-shadow">
+              Mari Ikuti Berbagai Acara yang Kami Selenggarakan
+            </h2>
+            <p class="small text-muted m-0">
+              Rangkuman kegiatan kami yang dapat diikuti maupun telah terlaksana
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="container my-5 py-3">
+        <hr class="border-secondary opacity-25" />
+      </div>
+
+      <!-- unggulan -->
+      <section>
+        <div class="container">
+          <div class="d-inline-block px-3 py-1 mb-3 rounded-5 border border-secondary fs-8">
+            <p class="m-0"><i class="bi bi-star me-2"></i>Unggulan</p>
+          </div>
+          <h2 class="mb-3 fw-semibold">Program Unggulan</h2>
+          <p class="mb-4 text-secondary fs-7">Acara utama untuk mendukung mahasiswa Teknologi Informasi</p>
+          <!-- main event -->
+          <div class="main-event mb-5 p-lg-4 p-3">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-6 position-relative">
+                <div class="rounded-4 ratio ratio-4x3 overflow-hidden">
+                  <img
+                    src="assets/seminar.jpeg"
+                    class="main-thumbnail w-100 h-100 object-fit-cover"
+                    alt="gagal"
+                  />
+                </div>
+                <span class="fw-normal badge bg-success position-absolute m-3 rounded-4 px-3 top-0"
+                  ><span class="me-2 text-warning">●</span>Selesai</span
+                >
+              </div>
+              <div class="col-lg-6">
+                <div class="ps-2">
+                  <h3 class="fw-bold mb-3">Seminar AI untuk Penelitian Mahasiswa & Power BI di Industri </h3>
+                  <div class="text-secondary mb-3">
+                    <div>
+                      <i class="bi bi-calendar me-2"></i>
+                      22 September 2026
+                    </div>
+                    <div>
+                      <i class="bi bi-clock me-2"></i>
+                      8:30 WIB
+                    </div>
+                    <div>
+                      <i class="bi bi-geo-alt me-2"></i>
+                      Universitas Muhammadiyah Palembang
+                    </div>
+                  </div>
+                  <p class="text-secondary mb-4">
+                    HMTI mengadakan Seminar yang membahas pemanfaatan AI dalam penelitian mahasiswa serta penggunaan 
+                    Power BI untuk mengolah dan memvisualisasikan data di industri.
+                  </p>
+                  <a href="acara-detail.html" class="btn btn-primary rounded-3 px-4"
+                    ><i class="bi bi-book me-2"></i>
+                    Lihat Detail
+                  </a>
+
+                  <a href="https://www.instagram.com/hmti_ump" class="shadow-sm btn border-secondary bg-light"
+                    ><i class="bi fs-7 bi-instagram me-2"></i>Instagram</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container my-5 py-3">
+        <hr class="border-secondary opacity-25" />
+      </div>
+
+      <!-- Agenda -->
+      <section>
+        <div class="container">
+          <div class="d-inline-block px-3 py-1 mb-3 rounded-5 border border-secondary fs-8">
+            <p class="m-0"><i class="bi bi-calendar-event me-2"></i>Agenda</p>
+          </div>
+          <h2 class="mb-3 fw-semibold">Acara Mendatang</h2>
+          <p class="mb-4 text-secondary fs-7">
+            Rangkaian kegiatan mendatang untuk mendukung pengembangan mahasiswa Teknologi Informasi
+          </p>
+          <!-- event -->
+          <div class="overflow-x-auto d-flex gap-3">
+            <!-- event ke-1 -->
+            <div class="card card-acara rounded-4 overflow-hidden">
+              <div class="position-relative">
+                <div class="ratio ratio-16x9">
+                  <img
+                    src="assets/hmti-studibanding.jpeg"
+                    class="card-img-top h-100 object-fit-cover"
+                    style="object-position: 0% 0%"
+                    alt="..."
+                  />
+                </div>
+                <span class="fw-normal badge bg-success position-absolute m-3 rounded-4 px-3 top-0"
+                  ><span class="me-2 text-warning">●</span>Selesai</span
+                >
+              </div>
+              <div class="card-body p-4 d-flex flex-column justify-content-between">
+                <h5 class="card-title">Studi Banding HMTI dengan HMJI Politeknik Sriwijaya</h5>
+                <p class="card-text mb-1 fs-7">
+                  <i class="bi bi-calendar me-1"></i>
+                  27 Juni 2026
+                </p>
+                <p class="mb-1 card-text fs-7">
+                  <i class="bi bi-clock me-1"></i>
+                  10.00 WIB - Selesai
+                </p>
+                <p class="card-text fs-7">
+                  <i class="bi bi-geo-alt me-1"></i>
+                  Universitas Muhammadiyah Palembang
+                </p>
+                <div>
+                  <a href="#" class="btn btn-primary fs-8"
+                    >Selengkapnya<i class="bi ms-1 bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container my-5 py-3">
+        <hr class="border-secondary opacity-25" />
+      </div>
+
+      <!-- Arsip -->
+      <section class="mb-5 pb-4">
+        <div class="container">
+          <div class="d-inline-block px-3 py-1 mb-3 rounded-5 border border-secondary fs-8">
+            <p class="m-0"><i class="bi bi-clock-history me-2"></i>Arsip</p>
+          </div>
+          <h2 class="mb-3 fw-semibold">Arsip Acara</h2>
+          <p class="mb-4 text-secondary fs-7">Rangkaian kegiatan kami yang sudah berlalu</p>
+          <!-- event -->
+          <div class="overflow-x-auto d-flex gap-3 pb-2">
+            <!-- event ke- baru -->
+            <div class="card card-acara rounded-4 overflow-hidden">
+              <div class="position-relative">
+                <div class="ratio ratio-16x9">
+                  <img
+                    src="assets/hmtiberbagi2026.webp"
+                    class="card-img-top h-100 object-fit-cover"
+                    style="object-position: 0% 0%"
+                    alt="..."
+                  />
+                </div>
+                <span class="fw-normal badge bg-success position-absolute m-3 rounded-4 px-3 top-0"
+                  ><span class="me-2 text-warning">●</span>Selesai</span
+                >
+              </div>
+              <div class="card-body p-4 d-flex flex-column justify-content-between">
+                <h5 class="card-title">HMTI Berbagai Berkah Ramadhan 2026</h5>
+                <p class="card-text mb-1 fs-7">
+                  <i class="bi bi-calendar me-1"></i>
+                  14 Maret 2026
+                </p>
+                <p class="mb-1 card-text fs-7">
+                  <i class="bi bi-clock me-1"></i>
+                  14.00 WIB - Selesai
+                </p>
+                <p class="card-text fs-7">
+                  <i class="bi bi-geo-alt me-1"></i>
+                  Panti asuhan
+                </p>
+                <div>
+                  <a href="#" class="btn btn-primary fs-8"
+                    >Selengkapnya<i class="bi ms-1 bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- event ke- baru -->
+            <div class="card card-acara rounded-4 overflow-hidden">
+              <div class="position-relative">
+                <div class="ratio ratio-16x9">
+                  <img
+                    src="assets/hmticup2025.png"
+                    class="card-img-top h-100 object-fit-cover"
+                    style="object-position: 0% 0%"
+                    alt="..."
+                  />
+                </div>
+                <span class="fw-normal badge bg-success position-absolute m-3 rounded-4 px-3 top-0"
+                  ><span class="me-2 text-warning">●</span>Selesai</span
+                >
+              </div>
+              <div class="card-body p-4 d-flex flex-column justify-content-between">
+                <h5 class="card-title">Mobile Legends Tournamen</h5>
+                <p class="card-text mb-1 fs-7">
+                  <i class="bi bi-calendar me-1"></i>
+                  14-15 Febuari 2026
+                </p>
+                <p class="mb-1 card-text fs-7">
+                  <i class="bi bi-clock me-1"></i>
+                  8.00 WIB - Selesai
+                </p>
+                <p class="card-text fs-7">
+                  <i class="bi bi-geo-alt me-1"></i>
+                  Universitas Muhammadiyah Palembang
+                </p>
+                <div>
+                  <a href="#" class="btn btn-primary fs-8"
+                    >Selengkapnya<i class="bi ms-1 bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- event ke-1 -->
+            <div class="card card-acara rounded-4 overflow-hidden">
+              <div class="position-relative">
+                <div class="ratio ratio-16x9">
+                  <img
+                    src="assets/foto_3.webp"
+                    class="card-img-top h-100 object-fit-cover"
+                    style="object-position: 0% 0%"
+                    alt="..."
+                  />
+                </div>
+                <span class="fw-normal badge bg-success position-absolute m-3 rounded-4 px-3 top-0"
+                  ><span class="me-2 text-warning">●</span>Selesai</span
+                >
+              </div>
+              <div class="card-body p-4 d-flex flex-column justify-content-between">
+                <h5 class="card-title">Pengkaderan Anggota Baru 2025</h5>
+                <p class="card-text mb-1 fs-7">
+                  <i class="bi bi-calendar me-1"></i>
+                  04 November 2025
+                </p>
+                <p class="mb-1 card-text fs-7">
+                  <i class="bi bi-clock me-1"></i>
+                  08.00 WIB - Selesai
+                </p>
+                <p class="card-text fs-7">
+                  <i class="bi bi-geo-alt me-1"></i>
+                  Lapangan Jakabaring
+                </p>
+                <div>
+                  <a href="#" class="btn btn-primary fs-8"
+                    >Selengkapnya<i class="bi ms-1 bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- event ke-2 -->
+            <div class="card card-acara rounded-4 overflow-hidden">
+              <div class="position-relative">
+                <div class="ratio ratio-16x9">
+                  <img
+                    src="assets/foto_2.webp"
+                    class="card-img-top h-100 object-fit-cover"
+                    style="object-position: center"
+                    alt="..."
+                  />
+                </div>
+                <span class="fw-normal badge bg-success position-absolute m-3 rounded-4 px-3 top-0"
+                  ><span class="me-2 text-warning">●</span>Selesai</span
+                >
+              </div>
+              <div class="card-body p-4 d-flex flex-column justify-content-between">
+                <h5 class="card-title">Musyawarah Besar HMTI 2025</h5>
+                <p class="card-text mb-1 fs-7">
+                  <i class="bi bi-calendar me-1"></i>
+                  01 Oktober 2025
+                </p>
+                <p class="mb-1 card-text fs-7">
+                  <i class="bi bi-clock me-1"></i>
+                  8.00 WIB - Selesai
+                </p>
+                <p class="card-text fs-7">
+                  <i class="bi bi-geo-alt me-1"></i>
+                  Sekretariat HMTI
+                </p>
+                <div>
+                  <a href="#" class="btn btn-primary fs-8"
+                    >Selengkapnya<i class="bi ms-1 bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer mt-5 pt-5 pb-3 bg-dark text-light">
+      <div class="container">
+        <div class="row g-4">
+          <!-- logo-->
+          <div class="col-lg-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="assets/hmti_logo.png" alt="logo hmti" class="me-2 csi-2" />
+              <h5 class="mb-0 fw-bold">HMTI UMP</h5>
+            </div>
+            <p class="text-secondary">
+              Himpunan Mahasiswa Teknologi Informasi Universitas Muhammadiyah Palembang. Wadah pengembangan
+              kreativitas dan inovasi mahasiswa IT.
+            </p>
+
+            <!-- Sosial Media -->
+            <div class="d-flex gap-3 fs-4">
+              <a href="https://instagram.com/hmti_ump" class="text-light footer-icon">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://github.com/hmtiump" class="text-light footer-icon">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="mailto:hmti.official20@gmail.com" class="text-light footer-icon">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Nav -->
+          <div class="col-lg-4">
+            <h6 class="fw-bold mb-3">Navigasi</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li><a href="index.html" class="footer-link">Home</a></li>
+              <li><a href="acara.html" class="footer-link">Acara</a></li>
+              <li><a href="struktur.html" class="footer-link">Struktur</a></li>
+              <li><a href="album.html" class="footer-link">Album</a></li>
+              <li><a href="tentang.html" class="footer-link">Tentang</a></li>
+            </ul>
+          </div>
+
+          <!-- Kontak -->
+          <div class="col-lg-4">
+            <h6 class="fw-bold mb-3">Kontak</h6>
+            <ul class="list-unstyled text-secondary d-flex flex-column gap-2">
+              <li>
+                <i class="bi bi-geo-alt me-2"></i>
+                Universitas Muhammadiyah Palembang
+              </li>
+              <li>
+                <i class="bi bi-telephone me-2"></i>
+                085159920061
+              </li>
+              <li>
+                <i class="bi bi-envelope me-2"></i>
+                hmti.official20@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-secondary my-4" />
+        <div class="text-center text-secondary fs-7">© 2026 HMTI UMP - By Divisi IT</div>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="js/js.js"></script>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HMTI UMP</title>
+    <link rel="icon" href="assets/hmti_logo.png" type="image/png" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="sytle/sytle.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <style>
+      body {
+        background: #f8fafc;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .article-img {
+        width: 100%;
+        border-radius: 16px;
+        object-fit: cover;
+      }
+
+      .sidebar {
+        position: sticky;
+        top: 100px;
+      }
+
+      .info-card {
+        background: white;
+        border-radius: 14px;
+        padding: 20px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+      }
+
+      .badge-status {
+        background: #e6f4ea;
+        color: #2e7d32;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 13px;
+      }
+
+      .article p {
+        line-height: 1.8;
+        color: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- loading -->
+    <div id="loading-screen">
+      <div class="p-2 rounded-circle border mb-3 bg-light">
+        <img style="width: 80px; height: 80px" src="assets/hmti_logo.png" alt="logo_hmti" />
+      </div>
+      <div class="loading-bar"></div>
+      <h5 class="mt-3">Memuat Halaman</h5>
+      <p class="text-secondary">Halaman sedang diproses mohon untuk bersabar</p>
+    </div>
+
+    <main>
+      <header class="sticky-top z-3">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 border-bottom">
+          <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html"
+              ><img class="csi-1 me-2" src="assets/hmti_logo.png" alt="logo_hmti" />HMTI</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="mt-2 mt-md-0 navbar-nav gap-2">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" href="acara.html">Acara</a>
+                <a href="struktur.html" class="nav-link pe-2"> Struktur </a>
+                <a class="nav-link" href="album.html">Album</a>
+                <a class="nav-link" href="tentang.html">Tentang</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="container py-5">
+        <!-- back -->
+        <a href="index.html" class="text-decoration-none text-muted mb-4 d-inline-block"
+          ><i class="me-2 bi bi-arrow-left"></i>Kembali
+        </a>
+
+        <div class="row g-5">
+          <!-- LEFT: ARTICLE -->
+          <div class="col-lg-8">
+            <h1 class="fw-bold mb-3">Seminar AI untuk Penelitian Mahasiswa & Power BI di Industri </h1>
+
+            <div class="mb-3">
+              <span class="badge-status">Selesai</span>
+            </div>
+
+            <div class="ratio ratio-4x3 mb-4">
+              <img src="assets/seminar.jpeg" class="article-img" />
+            </div>
+
+            <div class="article">
+              <p>
+                HMTI mengadakan kegiatan seminar dengan tema “AI untuk Penelitian Mahasiswa & Power BI di Industri” sebagai wadah untuk menambah wawasan mahasiswa mengenai perkembangan teknologi dan penerapannya dalam dunia akademik maupun industri.
+              </p>
+
+              <p>
+                Kegiatan ini membahas pemanfaatan Artificial Intelligence (AI) dalam mendukung proses penelitian mahasiswa serta penggunaan Power BI untuk mengolah, menganalisis, dan memvisualisasikan data secara efektif.
+              </p>
+
+              <p>
+                elalui kegiatan ini, diharapkan mahasiswa dapat memperoleh pengetahuan dan keterampilan baru yang bermanfaat dalam menunjang kegiatan akademik serta mempersiapkan diri menghadapi kebutuhan teknologi di dunia industri.
+              </p>
+
+              <h5 class="fw-bold mt-4">Highlight Kegiatan</h5>
+              <ul>
+                <li>Pemanfaatan AI dalam penelitian</li>
+                <li>Pengenalan Power BI di industri</li>
+                <li>Diskusi dan berbagi wawasan</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- RIGHT: SIDEBAR -->
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <div class="info-card mb-3">
+                <h6 class="fw-bold mb-3">Informasi Acara</h6>
+
+                <p class="mb-2">
+                  <i class="bi bi-calendar me-2"></i>
+                  22 September 2026
+                </p>
+
+                <p class="mb-2">
+                  <i class="bi bi-clock me-2"></i>
+                  8:30 WIB
+                </p>
+
+                <p class="mb-0">
+                  <i class="bi bi-geo-alt me-2"></i>
+                  Universitas Muhammadiyah Palembang
+                </p>
+              </div>
+
+              <div class="info-card">
+                <h6 class="fw-bold mb-3">Tentang Acara</h6>
+                <p class="small text-muted mb-0">
+                  Seminar HMTI tentang penggunaan AI dan Pemanfaatan Power BI
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer mt-5 pt-5 pb-3 bg-dark text-light">
+      <div class="container">
+        <div class="row g-4">
+          <!-- logo-->
+          <div class="col-lg-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="assets/hmti_logo.png" alt="logo hmti" class="me-2 csi-2" />
+              <h5 class="mb-0 fw-bold">HMTI UMP</h5>
+            </div>
+            <p class="text-secondary">
+              Himpunan Mahasiswa Teknologi Informasi Universitas Muhammadiyah Palembang. Wadah pengembangan
+              kreativitas dan inovasi mahasiswa IT.
+            </p>
+
+            <!-- Sosial Media -->
+            <div class="d-flex gap-3 fs-4">
+              <a href="https://instagram.com/hmti_ump" class="text-light footer-icon">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://github.com/hmtiump" class="text-light footer-icon">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="mailto:hmti.official20@gmail.com" class="text-light footer-icon">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Nav -->
+          <div class="col-lg-4">
+            <h6 class="fw-bold mb-3">Navigasi</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li><a href="index.html" class="footer-link">Home</a></li>
+              <li><a href="acara.html" class="footer-link">Acara</a></li>
+              <li><a href="struktur.html" class="footer-link">Struktur</a></li>
+              <li><a href="album.html" class="footer-link">Album</a></li>
+              <li><a href="tentang.html" class="footer-link">Tentang</a></li>
+            </ul>
+          </div>
+
+          <!-- Kontak -->
+          <div class="col-lg-4">
+            <h6 class="fw-bold mb-3">Kontak</h6>
+            <ul class="list-unstyled text-secondary d-flex flex-column gap-2">
+              <li>
+                <i class="bi bi-geo-alt me-2"></i>
+                Universitas Muhammadiyah Palembang
+              </li>
+              <li>
+                <i class="bi bi-telephone me-2"></i>
+                085159920061
+              </li>
+              <li>
+                <i class="bi bi-envelope me-2"></i>
+                hmti.official20@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-secondary my-4" />
+        <div class="text-center text-secondary fs-7">© 2026 HMTI UMP - By Divisi IT</div>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

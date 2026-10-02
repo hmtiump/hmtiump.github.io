@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Divisi IT</title>
+    <link rel="icon" href="assets/hmti_logo.png" type="image/png" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="sytle/sytle.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="position-relative">
+    <header class="sticky-top z-3">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 border-bottom">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html"
+            ><img class="csi-1 me-2" src="assets/hmti_logo.png" alt="logo_hmti" />HMTI</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="mt-2 mt-md-0 navbar-nav gap-2">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="acara.html">Acara</a>
+              <a href="struktur.html" class="nav-link pe-2"> Struktur </a>
+              <a class="nav-link" href="album.html">Album</a>
+              <a class="nav-link" href="tentang.html">Tentang</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- hero -->
+      <section
+        class="mb-6"
+        style="
+          background-image: url(https://media.istockphoto.com/id/2182250916/id/foto/konsep-kerja-sama-tim-dengan-beragam-tangan-bergabung-bersama-melambangkan-persatuan-kerja.jpg?s=612x612&w=0&k=20&c=MhBW9S5fbNaZCf608aGitesJY3h-jDq7j_uXQi776uY=);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        "
+      >
+        <div class="hero-cover">
+          <div
+            class="container"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="50"
+            data-aos-duration="1200"
+            data-aos="fade"
+          >
+            <div class="text-center text-light d-flex flex-column gap-3">
+              <h1 class="mb-3 fw-bold display-5">Album HMTI</h1>
+              <p class="fs-7 mb-3">
+                Kumpulan dokumentasi kegiatan yang telah kami selenggarakan. Mengabadikan momen dan
+                kebersamaan dalam setiap aktivitas.
+              </p>
+              <!-- arrow -->
+              <a id="cta"
+                ><span
+                  class="iconify-inline csi-2 text-light"
+                  data-icon="mingcute:arrow-down-circle-fill"
+                ></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- headline -->
+      <section class="pt-6">
+        <div class="container text-center">
+          <div class="mb-5">
+            <p class="fw-semibold text-primary mb-4">Album HMTI</p>
+            <h2 style="max-width: 600px" class="mb-4 d-inline-block mb-0 fw-bold display-6 text-shadow">
+              Kumpulan Momen Berharga HMTI dalam Album
+            </h2>
+            <p class="small text-muted m-0">kegiatan berharga kami selama berorganisasi</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="container my-5 py-3">
+        <hr class="border-secondary opacity-25" />
+      </div>
+
+      <section class="mb-4">
+        <div class="container">
+          <div class="row g-5">
+            <!-- album 1 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="album-stack" data-bs-toggle="modal" data-bs-target="#modal1">
+                <div class="stack-card card-3"></div>
+                <div class="stack-card card-2"></div>
+                <div class="stack-main card-1 shadow-lg">
+                  <img src="assets/hmtiberbagi2026.jpeg" class="img-fluid rounded-4" alt="Cover" />
+                  <div class="stack-info p-4">
+                    <span class="badge bg-white text-dark rounded-pill mb-2 shadow-sm">4 Photos</span>
+                    <h5 class="fw-bold text-white mb-0">HMTI Berbagi Berkah Ramadhan 2026</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- album 2 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="album-stack" data-bs-toggle="modal" data-bs-target="#modal2">
+                <div class="stack-card card-3"></div>
+                <div class="stack-card card-2"></div>
+                <div class="stack-main card-1 shadow-lg">
+                  <img src="assets/foto_2.webp" class="img-fluid rounded-4" alt="Cover" />
+                  <div class="stack-info p-4">
+                    <span class="badge bg-white text-dark rounded-pill mb-2 shadow-sm">24 Photos</span>
+                    <h5 class="fw-bold text-white mb-0">Musyawarah Besar 2025</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- album 3 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="album-stack" data-bs-toggle="modal" data-bs-target="#modal3">
+                <div class="stack-card card-3"></div>
+                <div class="stack-card card-2"></div>
+                <div class="stack-main card-1 shadow-lg">
+                  <img src="assets/foto_3.webp" class="img-fluid rounded-4" alt="Cover" />
+                  <div class="stack-info p-4">
+                    <span class="badge bg-white text-dark rounded-pill mb-2 shadow-sm">24 Photos</span>
+                    <h5 class="fw-bold text-white mb-0">kaderisasi 2026</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- modal 1 -->
+      <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div
+            class="modal-content border-0 shadow-none"
+            style="background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(20px)"
+          >
+            <div class="modal-header border-0 p-4 px-lg-5">
+              <div class="d-flex align-items-center">
+                <img src="assets/hmti_logo.png" height="40" class="me-3" />
+                <div>
+                  <h6 class="fw-bold mb-0">HMTI Berbagi Berkah Ramadhan 2026</h6>
+                  <small class="text-muted">Divisi Agama</small>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="btn-close fs-5"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="modal-body d-flex align-items-center justify-content-center p-0">
+              <div id="carosuel1" class="carousel slide w-100" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <div class="carousel-img-container shadow-2xl">
+                      <img src="assets/hmtiberbagi26-0.jpg" class="rounded-4 shadow-lg mx-auto" alt="..." />
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <div class="carousel-img-container shadow-2xl">
+                      <img src="assets/hmtiberbagi26-1.jpeg" class="rounded-4 shadow-lg mx-auto" alt="..." />
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <div class="carousel-img-container shadow-2xl">
+                      <img src="assets/hmtiberbagi26-2.jpeg" class="rounded-4 shadow-lg mx-auto" alt="..." />
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <div class="carousel-img-container shadow-2xl">
+                      <img src="assets/hmtiberbagi26-3.jpeg" class="rounded-4 shadow-lg mx-auto" alt="..." />
+                    </div>
+                  </div>
+                </div>
+
+                <button class="carousel-nav prev" data-bs-target="#carosuel1" data-bs-slide="prev">
+                  <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="carousel-nav next" data-bs-target="#carosuel1" data-bs-slide="next">
+                  <i class="bi bi-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 2 -->
+      <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div
+            class="modal-content border-0 shadow-none"
+            style="background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(20px)"
+          >
+            <div class="modal-header border-0 p-4 px-lg-5">
+              <div class="d-flex align-items-center">
+                <img src="assets/hmti_logo.png" height="40" class="me-3" />
+                <div>
+                  <h6 class="fw-bold mb-0">Musyawarah Besar 2025</h6>
+                  <small class="text-muted">Divisi IT & Pengembangan</small>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="btn-close fs-5"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="modal-body d-flex align-items-center justify-content-center p-0">
+              <div id="carosuel2" class="carousel slide w-100" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <div class="carousel-img-container shadow-2xl">
+                      <img src="assets/foto_2.webp" class="rounded-4 shadow-lg mx-auto" alt="..." />
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <div class="carousel-img-container shadow-2xl">
+                      <img src="assets/foto_3.webp" class="rounded-4 shadow-lg mx-auto" alt="..." />
+                    </div>
+                  </div>
+                </div>
+
+                <button class="carousel-nav prev" data-bs-target="#carosuel2" data-bs-slide="prev">
+                  <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="carousel-nav next" data-bs-target="#carosuel2" data-bs-slide="next">
+                  <i class="bi bi-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 3 -->
+      <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div
+            class="modal-content border-0 shadow-none"
+            style="background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(20px)"
+          >
+            <div class="modal-header border-0 p-4 px-lg-5">
+              <div class="d-flex align-items-center">
+                <img src="assets/hmti_logo.png" height="40" class="me-3" />
+                <div>
+                  <h6 class="fw-bold mb-0">Kaderisasi 2026</h6>
+                  <small class="text-muted">Divisi IT & Pengembangan</small>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="btn-close fs-5"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="modal-body d-flex align-items-center justify-content-center p-0">
+              <div id="carosuel3" class="carousel slide w-100" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <div class="carousel-img-container shadow-2xl">
+                      <img src="assets/foto_3.webp" class="rounded-4 shadow-lg mx-auto" alt="..." />
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <div class="carousel-img-container shadow-2xl">
+                      <img src="assets/foto_2.webp" class="rounded-4 shadow-lg mx-auto" alt="..." />
+                    </div>
+                  </div>
+                </div>
+
+                <button class="carousel-nav prev" data-bs-target="#carosuel3" data-bs-slide="prev">
+                  <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="carousel-nav next" data-bs-target="#carosuel3" data-bs-slide="next">
+                  <i class="bi bi-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer mt-5 pt-5 pb-3 bg-dark text-light">
+      <div class="container">
+        <div class="row g-4">
+          <!-- logo-->
+          <div class="col-lg-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="assets/hmti_logo.png" alt="logo hmti" class="me-2 csi-2" />
+              <h5 class="mb-0 fw-bold">HMTI UMP</h5>
+            </div>
+            <p class="text-secondary">
+              Himpunan Mahasiswa Teknologi Informasi Universitas Muhammadiyah Palembang. Wadah pengembangan
+              kreativitas dan inovasi mahasiswa IT.
+            </p>
+
+            <!-- Sosial Media -->
+            <div class="d-flex gap-3 fs-4">
+              <a href="https://instagram.com/hmti_ump" class="text-light footer-icon">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://github.com/hmtiump" class="text-light footer-icon">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="mailto:hmti.official20@gmail.com" class="text-light footer-icon">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Nav -->
+          <div class="col-lg-4">
+            <h6 class="fw-bold mb-3">Navigasi</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li><a href="index.html" class="footer-link">Home</a></li>
+              <li><a href="acara.html" class="footer-link">Acara</a></li>
+              <li><a href="struktur.html" class="footer-link">Struktur</a></li>
+              <li><a href="album.html" class="footer-link">Album</a></li>
+              <li><a href="tentang.html" class="footer-link">Tentang</a></li>
+            </ul>
+          </div>
+
+          <!-- Kontak -->
+          <div class="col-lg-4">
+            <h6 class="fw-bold mb-3">Kontak</h6>
+            <ul class="list-unstyled text-secondary d-flex flex-column gap-2">
+              <li>
+                <i class="bi bi-geo-alt me-2"></i>
+                Universitas Muhammadiyah Palembang
+              </li>
+              <li>
+                <i class="bi bi-telephone me-2"></i>
+                085159920061
+              </li>
+              <li>
+                <i class="bi bi-envelope me-2"></i>
+                hmti.official20@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-secondary my-4" />
+        <div class="text-center text-secondary fs-7">© 2026 HMTI UMP - By Divisi IT</div>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="js/js.js"></script>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  
+  </body>
+</html>
